@@ -1,0 +1,20 @@
+npm i ng2-ace-editor@0.3.9  --legacy-peer-deps
+npm i ngx-highlight-js@9.0.0 --legacy-peer-deps
+npm i ngx-json-viewer@2.4.0 --legacy-peer-deps
+npm i ng2-ace-editor@0.3.9 ngx-highlight-js@9.0.0 ngx-json-viewer@2.4.0  --legacy-peer-deps
+
+
+
+npm uninstall ng2-ace-editor@0.3.9 ngx-highlight-js@9.0.0 ngx-json-viewer@2.4.0  --legacy-peer-deps
+npm uninstall ng2-ace-editor
+npm uninstall ngx-highlight-js
+npm uninstall ngx-json-viewer
+
+
+
+
+"bundledDependencies ": {
+"ng2-ace-editor": "^0.3.9",
+"ngx-highlight-js": "^9.0.0",
+"ngx-json-viewer": "^2.4.0"
+},

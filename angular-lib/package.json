@@ -1,0 +1,21 @@
+{
+  "name": "mano-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ng2-ace-editor": "^0.3.9",
+    "ngx-highlight-js": "^9.0.0",
+    "ngx-json-viewer": "^2.4.0"
+  },
+  "bundleDependencies": [
+    "ng2-ace-editor",
+    "ngx-highlight-js",
+    "ngx-json-viewer"
+  ]
+}

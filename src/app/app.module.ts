@@ -15,9 +15,9 @@ import {XxxSearchModule} from '@app/modules/xxx-search/xxx-search.module';
 
 // For test
 import { FormsModule } from '@angular/forms';
-import { NgxJsonViewerModule } from 'ngx-json-viewer';
-import { AceEditorModule } from 'ng2-ace-editor';
-import { HighlightJsModule } from 'ngx-highlight-js';
+import { NgxJsonViewerModule } from 'mano-lib/node_modules/ngx-json-viewer';
+import { AceEditorModule } from 'mano-lib/node_modules/ng2-ace-editor';
+import { HighlightJsModule } from 'mano-lib/node_modules/ngx-highlight-js';
 
 
 @NgModule({
@@ -39,7 +39,9 @@ import { HighlightJsModule } from 'ngx-highlight-js';
     XxxSearchModule,
     AppRoutingModule,
     // For test
-    FormsModule, NgxJsonViewerModule, AceEditorModule, HighlightJsModule 
+    FormsModule, 
+    NgxJsonViewerModule, AceEditorModule, 
+    HighlightJsModule 
   ]
 })
 

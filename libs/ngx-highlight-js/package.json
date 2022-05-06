@@ -1,0 +1,45 @@
+{
+  "name": "ngx-highlight-js",
+  "version": "9.0.0",
+  "description": "Angular for syntax highlighting with highlight.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipchk/ngx-highlight-js.git"
+  },
+  "keywords": [
+    "highlight",
+    "ngx-highlight-js",
+    "highlight.js",
+    "highlight-js",
+    "syntax highlighting"
+  ],
+  "author": "cipchk <cipchk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cipchk/ngx-highlight-js/issues"
+  },
+  "homepage": "https://github.com/cipchk/ngx-highlight-js#readme",
+  "main": "bundles/ngx-highlight-js.umd.js",
+  "module": "fesm5/ngx-highlight-js.js",
+  "es2015": "fesm2015/ngx-highlight-js.js",
+  "esm5": "esm5/ngx-highlight-js.js",
+  "esm2015": "esm2015/ngx-highlight-js.js",
+  "fesm5": "fesm5/ngx-highlight-js.js",
+  "fesm2015": "fesm2015/ngx-highlight-js.js",
+  "typings": "ngx-highlight-js.d.ts",
+  "metadata": "ngx-highlight-js.metadata.json",
+  "sideEffects": false,
+  "peerDependencies": {
+    "tslib": "^1.10.0"
+  },
+  "fesm5_ivy_ngcc": "__ivy_ngcc__/fesm5/ngx-highlight-js.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm5/ngx-highlight-js.js",
+  "__processed_by_ivy_ngcc__": {
+    "fesm5": "9.0.0-next.4",
+    "module": "9.0.0-next.4",
+    "typings": "9.0.0-next.4"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}
